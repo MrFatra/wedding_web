@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Home, Links } from './pages'
+import { Home, Links, NotFound } from './pages'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' Component={Links} />
           <Route path='/invite' Component={Home} />
+          <Route path='*' Component={NotFound} />
         </Routes>
       </BrowserRouter>
     </>
