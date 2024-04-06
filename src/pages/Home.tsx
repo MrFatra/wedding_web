@@ -1,4 +1,3 @@
-import React from 'react'
 import invitations from '../lib/data.json'
 
 const Home = () => {
