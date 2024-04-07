@@ -1,5 +1,6 @@
 import invitations from '../lib/data.json'
 import { NotFound } from '.'
+import Banks from '../components/Banks'
 
 const Home = () => {
     const urlSearch = new URLSearchParams(window.location.search)
@@ -11,7 +12,7 @@ const Home = () => {
         <div className="">You has not invited!</div>
     )
     return (
-        <div className="">{name}</div>
+        <Banks></Banks>
     )
 }
 
