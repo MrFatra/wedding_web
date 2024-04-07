@@ -1,5 +1,5 @@
 import invitations from '../lib/data.json'
-import { NotFound } from '.'
+import NotFound from './404'
 import Banks from '../components/Banks'
 
 const Home = () => {
