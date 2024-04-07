@@ -5,7 +5,9 @@ const Links = () => {
   return (
     invitations.map((item, index) => {
       return (
-        <Link to={`/invite?name=${item.name}`} key={index}>{item.name}</Link>
+        <div className="">
+          <Link to={`/invite?name=${item.name}`} key={index}>Undangan untuk {item.name}</Link>
+        </div>
       )
     })
   )
