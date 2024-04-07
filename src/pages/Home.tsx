@@ -1,6 +1,6 @@
 import invitations from '../lib/data.json'
 import NotFound from './404'
-import Header from '../components/Header'
+import SubHeader from '../components/SubHeader'
 
 const Home = () => {
     const urlSearch = new URLSearchParams(window.location.search)
@@ -12,7 +12,7 @@ const Home = () => {
         <div className="">You has not invited!</div>
     )
     return (
-        <Header></Header>
+        <SubHeader></SubHeader>
     )
     
 }
