@@ -5,7 +5,13 @@ function App() {
   
   return (
     <>
-      <Invites />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' Component={Links} />
+          <Route path='/invite' Component={Home} />
+          <Route path='*' Component={NotFound} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
