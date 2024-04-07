@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap&family=Reddit+Mono:wght@200..900');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: "Wellfleet", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -21,13 +21,11 @@
 body {
   margin: 0;
   display: flex;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #1F1F1F;
-    background-color: #EFFFFD;
+    color: #213547;
+    background-color: #ffffff;
   }
 }

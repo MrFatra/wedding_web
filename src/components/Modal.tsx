@@ -15,10 +15,17 @@ export default function Modal() {
             <div
                 onClick={(e) => e.stopPropagation()}
                 className={`
+<<<<<<< HEAD
           bg-cover bg-center shadow p-6 transition-all w-full h-full flex flex-col items-center justify-center
           ${open ? "scale-100 opacity-100" : "scale-125 opacity-0"}
         `}
         style={{ backgroundImage: "url('https://source.unsplash.com/random')" }}
+=======
+          bg-white bg-cover bg-center shadow p-6 transition-all w-full h-full flex flex-col items-center justify-center
+          ${open ? "scale-100 opacity-100" : "scale-125 opacity-0"}
+        `}
+                style={{ backgroundImage: "url('https://source.unsplash.com/random')" }}
+>>>>>>> cc8d44490f759d8add13d1503534fb298b23a77a
             >
 
                 <p className="text-[3rem]">Incoming Invite</p>

@@ -1,6 +1,8 @@
-import Invites from "./pages/Invites"
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Home, Links, NotFound } from './pages'
 
 function App() {
+  
   return (
     <>
       <Invites />

@@ -7,10 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#B3C8CF',
-        'secondary': '#BED7DC',
-        'pale': '#F1EEDC',
-        'cream': '#E5DDC5'
+        'danger': '#FF204E'
+      },
+      fontSize: {
+        'header': '2.5rem',
+      },
+      fontFamily: {
+        'playfair': ['Playfair Display', 'serif'],
+        'coustard': ['Coustard', 'serif'],
+        'raleway': ['Raleway', 'sans-serif'],
+        'satisfy': ['Satisfy', 'cursive'],
+        'reddit': ['Reddit Mono', 'cursive']
       }
     },
   },
