@@ -49,13 +49,10 @@ const SubHeader = () => {
       </div> */}
       <div className="flex flex-col">
         <div className="inline-block text-center mt-5">
-            <p>Memplai Wanita & Mempelai Pria</p>
+            <p>Ade & Robi</p>
         </div>
         <div className="inline-block text-center">
-            <p>Ade Putri Pertama Bapak Elon Dahlan & Ibu Uhe</p>
-        </div>
-        <div className="inline-block text-center">
-            <p>Robi Putra Kedua Bapak Syahromi & Ibu Anah</p>
+            <p>Putri Pertama Bapak Elon Dahlan & Ibu Uhe, Putra Kedua Bapak Syahromi & Ibu Anah</p>
         </div>
       </div>
     </div>
