@@ -10,7 +10,7 @@ const Banks = () => {
                 </p>
                 "</div>
             <div className="mt-10 font-raleway ml-10 mb-10">
-                <div className="rounded-2xl bg-white lg:w-1/4 relative" style={{ clipPath: 'polygon(0% 0%, 85% 0, 100% 18%, 100% 100%, 0% 100%)' }}>
+                <div className="rounded-2xl bg-white lg:w-1/4" style={{ clipPath: 'polygon(0% 0%, 85% 0, 100% 18%, 100% 100%, 0% 100%)' }}>
                     <div className="px-5 pb-0 pt-3">
                         <img src="/images/banks/bni.png" alt="BNI" className="my-10" />
                         <div className="">
