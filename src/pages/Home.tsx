@@ -1,7 +1,5 @@
 import invitations from '../lib/data.json'
-import { NotFound } from '.'
-import Banks from '../components/Banks'
-import { Modal } from '../components'
+import NotFound from './404'
 
 const Home = () => {
     const urlSearch = new URLSearchParams(window.location.search)
@@ -9,15 +7,12 @@ const Home = () => {
 
     if (!name) return <NotFound />
 
-    if (!invitations.some(people => people.name === name)) return (
-        <div className="">You has not invited!</div>
-    )
+    if (!invitations.some(people => people.name === name)) return <NotFound />
+
     return (
-        <div>
-            <Banks></Banks>
-            <Modal></Modal>
-        </div>
+        <div className=""></div>
     )
+    
 }
 
 export default Home
