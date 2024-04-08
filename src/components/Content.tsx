@@ -1,18 +1,27 @@
 const Content = () => {
   return (
-    <div>
-      <p>
-        Bismillahirrahmanirrahim Assalamu'alaikum Warahmatullahi Wabarakatuh
-        Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
-        menyelenggarakan acara pernikahan putra di bawahnya terdapat teks
-        tambahan yaitu AKAD NIKAH
-      </p>
-      <p>
-        Hari, Tanggal : Kamis, 18 April 2024 Waktu : 08.00 s.d Selesai Tempat :
-        Kediaman Mempelai Wanita
-      </p>
-      <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada putra-putri kami.</p>
-      <p>Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+    <div className="bg-slate-300 rounded-md m-8">
+      <div className="grid grid-cols-2 gap-11">
+        <div className="ml-7 mt-4 mb-4 bg-white h-[385px] w-[300px] rounded-xl shadow-2xl">
+          <img
+            src="/images/wedding/wed-5.jpg"
+            alt=""
+            className="h-[350px] ml-5 mt-4 object-cover rounded-lg shadow-xl"
+          />
+        </div>
+        <div className="mt-4">
+          <h1 className="text-4xl font-extrabold font-satisfy mb-3 tracking-widest text-center">Akad Nikah</h1>
+          <p className="font-semibold text-xl font-satisfy mb-2">
+            Kamis, 18 April 2024
+          </p>
+          <p className="font-semibold text-lg font-playfair mb-2">
+            Waktu: 08.00 s.d Selesai
+          </p>
+          <p className="font-playfair text-lg font semi-bold mb-2">
+            Tempat: Kediaman Wanita
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
