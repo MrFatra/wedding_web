@@ -10,7 +10,7 @@ export default {
         'danger': '#FF204E'
       },
       fontSize: {
-        'header': '2.5rem',
+        'header': '3rem',
       },
       fontFamily: {
         'playfair': ['Playfair Display', 'serif'],
@@ -18,7 +18,22 @@ export default {
         'raleway': ['Raleway', 'sans-serif'],
         'satisfy': ['Satisfy', 'cursive'],
         'reddit': ['Reddit Mono', 'cursive']
-      }
+      },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-8deg)" },
+          "50%": { transform: "rotate(10deg)" }
+        },
+        check: {
+          "0%": { transform: 'scale(1)' },
+          "50%": { transform: "scale(1.2)" },
+          "100%": { transform: "scale(1)" }
+        }
+      },
+      animation: {
+        wiggle: "wiggle 350ms ease-in-out",
+        check: "check 300ms linear",
+      },
     },
   },
   plugins: [],
