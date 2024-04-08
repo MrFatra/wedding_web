@@ -14,10 +14,8 @@ const Home = () => {
     )
     return (
         <div>
-            <div className="absolute top-o left-0 w-full h-full">
-                <Modal />
-            </div>
             <Banks></Banks>
+            <Modal></Modal>
         </div>
     )
 }
