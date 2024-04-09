@@ -8,6 +8,14 @@ export default function Modal() {
         window.scrollTo(0, 0)
     }, [])
 
+    useEffect(() => {
+        if (open) document.documentElement.classList.add('overflow-hidden');
+        else document.documentElement.classList.remove('overflow-hidden');
+        return () => {
+            document.documentElement.classList.remove('overflow-hidden');
+        };
+    }, [open, setOpen])
+
     return (
         <div className={`fixed inset-0 transition-colors ${open ? "visible bg-black/20" : "invisible"}`}>
             <div
@@ -21,7 +29,7 @@ export default function Modal() {
                     </div>
                     <p className="text-[1.5rem] mt-5 font-semibold sm:text-4xl md:text-4xl">The Wedding Of</p>
                     <div className="flex items-center flex-col mt-4 mb-5 font-bold">
-                        <div className="font-satisfy text-5xl mt-10 mb-1 flex flex-col gap-5">
+                        <div className="font-satisfy text-3xl md:text-5xl lg:text-5xl mt-10 mb-1 flex flex-col gap-5">
                             <p>Ade Irna Rohmatillah</p>
                             <p>&</p>
                             <p>Muhammad Ilyas Robiansyah</p>
