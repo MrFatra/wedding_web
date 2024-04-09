@@ -21,12 +21,12 @@ export default function Modal() {
                     </div>
                     <p className="text-[1.5rem] mt-5 font-semibold sm:text-4xl md:text-4xl">The Wedding Of</p>
                     <div className="flex items-center flex-col mt-4 mb-5 font-bold">
-                        <div className="font-satisfy text-6xl mt-10 mb-1 flex flex-col gap-5">
-                            <p>Joe</p>
+                        <div className="font-satisfy text-5xl mt-10 mb-1 flex flex-col gap-5">
+                            <p>Ade Irna Rohmatillah</p>
                             <p>&</p>
-                            <p>Sarah Doe</p>
+                            <p>Muhammad Ilyas Robiansyah</p>
                         </div>
-                        <p className="text-[1.2rem] font-semibold sm:text-2xl md:text-2xl mt-5">Senin, 2 Januari 2024</p>
+                        <p className="text-[1.2rem] font-semibold sm:text-2xl md:text-2xl mt-5">Kamis, 18 April 2024</p>
                     </div>
                     <button onClick={() => setOpen(false)} className="bg-[#B2533E] shadow-[#66474a] shadow-lg rounded-lg py-3 px-5 hover:scale-105 transition-all text-white font-semibold flex items-center justify-center gap-2 group">Buka Undangan <FaArrowRight className="transition-transform duration-300 transform group-hover:translate-x-2" /></button>
                 </div>

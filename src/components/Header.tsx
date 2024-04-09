@@ -9,15 +9,18 @@ const Header = () => {
         <p className="text-2xl md:text-4xl lg:text-4xl font-medium font-playfair mb-8 tracking tracking-widest">
           We Are Getting Married
         </p>
-        <h1 className="text-8xl font-extrabold font-satisfy my-6">
-          Ade <br /> &amp; <br />
-          Robi
-        </h1>
+        <div className="font-satisfy text-5xl mt-10 mb-1 flex flex-col gap-5">
+          <p>Ade Irna Rohmatillah</p>
+          <p>&</p>
+          <p>Muhammad Ilyas Robiansyah</p>
+        </div>
         <p className="text-xl font-semibold mb-5 font-playfair">
           And we want you to be part of our special day!
         </p>
-        <p className="text-lg font-normal mt-5 mb-3 font-playfair">Scroll down</p>
-        <FaArrowDown size={25} className="animate-bounce"/>
+        <p className="text-lg font-normal mt-5 mb-3 font-playfair">
+          Scroll down
+        </p>
+        <FaArrowDown size={25} className="animate-bounce" />
       </div>
     </div>
   );
