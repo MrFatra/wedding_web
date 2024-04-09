@@ -20,7 +20,7 @@ const Content = () => {
             Waktu: 08.00 s.d Selesai
           </p>
           <p className="font-playfair text-sm md:text-lg font-medium mb-2">
-            Tempat: Kediaman Wanita
+            Tempat: Kediaman Mempelai Wanita
           </p>
         </div>
       </div>
