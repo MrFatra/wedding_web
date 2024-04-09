@@ -9,10 +9,10 @@ export default function Modal() {
     }, [])
 
     useEffect(() => {
-        if (open) document.documentElement.classList.add('overflow-y-hidden');
-        else document.documentElement.classList.remove('overflow-y-hidden');
+        if (open) document.documentElement.classList.add('overflow-hidden');
+        else document.documentElement.classList.remove('overflow-hidden');
         return () => {
-            document.documentElement.classList.remove('overflow-y-hidden');
+            document.documentElement.classList.remove('overflow-hidden');
         };
     }, [open, setOpen])
 
@@ -29,7 +29,7 @@ export default function Modal() {
                     </div>
                     <p className="text-[1.5rem] mt-5 font-semibold sm:text-4xl md:text-4xl">The Wedding Of</p>
                     <div className="flex items-center flex-col mt-4 mb-5 font-bold">
-                        <div className="font-satisfy text-5xl mt-10 mb-1 flex flex-col gap-5">
+                        <div className="font-satisfy text-3xl md:text-5xl lg:text-5xl mt-10 mb-1 flex flex-col gap-5">
                             <p>Ade Irna Rohmatillah</p>
                             <p>&</p>
                             <p>Muhammad Ilyas Robiansyah</p>
