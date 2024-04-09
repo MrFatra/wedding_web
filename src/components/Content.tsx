@@ -1,31 +1,31 @@
 const Content = () => {
   return (
-    <div className="bg-slate-300 rounded-md m-8">
-      <div className="grid grid-cols-2">
-        <div className="ml-7 mt-4 mb-4 bg-white h-[385px] w-[300px] rounded-xl shadow-2xl">
+    <div className="bg-slate-300 rounded-md m-4 md:m-8">
+      <div className="grid md:grid-cols-2">
+        <div className="m-11 md:ml-7 md:mt-4 md:mb-4 bg-white h-[200px] w-[155px] md:h-[285px] md:w-[230px] lg:h-[385px] lg:w-[300px] rounded-xl shadow-2xl">
           <img
             src="/images/wedding/wed-5.jpg"
             alt=""
-            className="h-[350px] ml-5 mt-4 object-cover rounded-lg shadow-xl"
+            className="h-[175px] md:h-[255px] lg:h-[350px] ml-3 md:ml-5 mt-3 md:mt-4 object-cover rounded-lg shadow-inner"
           />
         </div>
-        <div className="mt-32 text-center">
-          <h1 className="text-4xl font-extrabold font-satisfy mb-3 tracking-widest">
+        <div className="md:mt-32 text-center">
+          <h1 className="text-3xl md:text-4xl font-extrabold font-satisfy mb-3 tracking-widest">
             Akad Nikah
           </h1>
-          <p className="font-medium text-xl font-playfair mb-2">
+          <p className="font-medium text-sm md:text-xl font-playfair mb-2">
             Kamis, 18 April 2024
           </p>
-          <p className="font-medium text-lg font-playfair mb-2">
+          <p className="font-medium text-sm md:text-lg font-playfair mb-2">
             Waktu: 08.00 s.d Selesai
           </p>
-          <p className="font-playfair text-lg font-medium mb-2">
+          <p className="font-playfair text-sm md:text-lg font-medium mb-2">
             Tempat: Kediaman Wanita
           </p>
         </div>
       </div>
-      <div className="w-[450px] text-center ml-24 mt-2">
-        <p className="font-raleway">
+      <div className="w-[200px] lg:w-[450px] text-center m-6 md:ml-24 mt-2">
+        <p className="font-raleway text-xs md:text-base">
           Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
           Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada
           putra-putri kami.
