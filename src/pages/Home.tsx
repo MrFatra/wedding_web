@@ -1,3 +1,4 @@
+import { Banks, Content, Countdown, Header, Inputs, Maps, Modal, SubHeader } from '../components'
 import invitations from '../lib/data.json'
 import NotFound from './404'
 
@@ -11,9 +12,18 @@ const Home = () => {
         <div className="">You has not invited!</div>
     )
     return (
-        <div className=""></div>
+        <div className='w-full flex flex-col bg-slate-100'>
+            <Header />
+            <SubHeader />
+            <Content />
+            <Countdown />
+            <Maps />
+            <Inputs name={name} />
+            <Banks />
+            <Modal />
+        </div>
     )
-    
+
 }
 
 export default Home

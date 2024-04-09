@@ -6,7 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      scale: {
+        '-100': '-1',
+    },
       colors: {
+        'grack': '#373D3F',
         'danger': '#FF204E'
       },
       fontSize: {
