@@ -1,8 +1,12 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { FaArrowRight } from "react-icons/fa6"
 
 export default function Modal() {
     const [open, setOpen] = useState(true)
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div className={`fixed inset-0 transition-colors ${open ? "visible bg-black/20" : "invisible"}`}>
