@@ -8,6 +8,14 @@ export default function Modal() {
         window.scrollTo(0, 0)
     }, [])
 
+    useEffect(() => {
+        if (open) document.documentElement.classList.add('overflow-y-hidden');
+        else document.documentElement.classList.remove('overflow-y-hidden');
+        return () => {
+            document.documentElement.classList.remove('overflow-y-hidden');
+        };
+    }, [open, setOpen])
+
     return (
         <div className={`fixed inset-0 transition-colors ${open ? "visible bg-black/20" : "invisible"}`}>
             <div
