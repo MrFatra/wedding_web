@@ -27,15 +27,16 @@ const Inputs = ({ name }: { name: string }) => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <p className="text-header font-bold mb-4">Konfirmasi Kehadiran</p>
+        <form onSubmit={handleSubmit} className="px-8 mb-10 mt-5">
+            <p className="text-4xl lg:text-header md:text-header font-bold"><span className="font-coustard mr-2">"</span>Konfirmasi Kehadiran <span className="font-coustard">"</span></p>
+            <div className=" h-[1.5px] bg-s late-500 rounded-full mb-5" />
             <div className="flex flex-col gap-2">
                 <div className="flex gap-2 items-center text-xl">
-                    <p className="">Nama: {name}</p>
+                    <p className="text-lg">Nama: {name}</p>
                 </div>
                 <div className="flex flex-col gap-2 mt-2">
-                    <p className="text-xl">Pesan Ucapan:</p>
-                    <TextareaAutosize onChange={(event) => setMessage(event.target.value)} minRows={3} className="resize-none border rounded-lg p-2" required />
+                    <p className="text-lg">Pesan Ucapan:</p>
+                    <TextareaAutosize onChange={(event) => setMessage(event.target.value)} minRows={3} className="resize-none border-2 rounded-lg p-2 border-grack" required />
                 </div>
                 <div className="flex flex-col gap-3 my-4" >
                     {
@@ -51,7 +52,7 @@ const Inputs = ({ name }: { name: string }) => {
                         ))
                     }
                 </div>
-                <button type="submit" className="bg-black rounded-lg p-2 text-white flex items-center justify-center disabled:bg-opacity-50" disabled={!message.length || !selectedPresence.length}>Konfirmasi</button>
+                <button type="submit" className="bg-black rounded-lg py-3 font-semibold tracking-wide text-white flex items-center justify-center disabled:bg-opacity-50" disabled={!message.length || !selectedPresence.length}>Konfirmasi</button>
             </div>
         </form>
     )

@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply text-grack;
+  }
+}
+
 :root {
   font-family: "Playfair Display", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
