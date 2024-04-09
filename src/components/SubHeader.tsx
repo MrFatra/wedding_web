@@ -7,7 +7,7 @@ const SubHeader = () => {
           <span className="font-raleway text-2xl md:text-3xl font-medium">
             &
           </span>{" "}
-          Wanita
+          Mempelai Wanita
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-4 md:px-20">
@@ -35,7 +35,7 @@ const SubHeader = () => {
       </div>
       <div className="flex flex-col mt-4 md:mt-8">
         <div className="inline-block text-center text-xl md:text-3xl font-satisfy">
-          <p>Ade & Robi</p>
+          <p>Ade Irna Rohmatillah & Muhammad Ilyas Robiansyah</p>
         </div>
         <div className="inline-block text-center text-base md:text-lg font-medium font-raleway">
           <p>
