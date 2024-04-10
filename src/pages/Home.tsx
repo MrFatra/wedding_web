@@ -1,4 +1,4 @@
-import { Banks, Content, Countdown, Header, Inputs, Maps, Modal, SubHeader } from '../components'
+import { Banks, Content, Countdown, Header, Inputs, Maps, Modal, Quotes, SubHeader } from '../components'
 import invitations from '../lib/data.json'
 import NotFound from './404'
 
@@ -18,6 +18,7 @@ const Home = () => {
             <Countdown />
             <Maps />
             <Inputs name={name} />
+            <Quotes />
             <Banks />
             <Modal />
         </div>
