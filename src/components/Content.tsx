@@ -1,18 +1,18 @@
 const Content = () => {
   return (
-    <div className="bg-slate-300 rounded-md m-4 md:m-8 md:w-[875px] md:mx-auto">
-      <div className="grid md:grid-cols-2">
-        <div className="ml-[120px] mt-5 mb-5 md:ml-24 md:mt-4 md:mb-4 bg-white h-[200px] w-[155px] md:h-[335px] md:w-[275px] lg:h-[385px] lg:w-[300px] rounded-xl shadow-2xl">
+    <div className="bg-orange-100 text-gray-500 rounded-md py-10 px-5 flex flex-col items-center justify-center mx-4 sm:mx-8 my-10">
+      <div className="block sm:flex gap-10 md:gap-15 lg:gap-15 items-center">
+        <div className="flex justify-center">
           <img
             src="/images/wedding/wed-5.jpg"
             alt=""
-            className="h-[175px] md:h-[315px] lg:h-[350px] ml-3 md:ml-5 mt-3 sm:mt-3 md:mt-4 object-cover rounded-lg shadow-inner"
+            className="h-1/4 md:h-1/3 lg:h-1/3 w-1/2 sm:w-1/2 object-cover rounded-lg border-[10px] border-white"
           />
         </div>
-        <div className="md:mt-32  text-center">
-          <h1 className="text-3xl md:text-4xl font-extrabold font-satisfy mb-3 tracking-widest">
+        <div className="text-center sm:mt-0 mt-10">
+          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-satisfy tracking-widest">
             Akad Nikah
-          </h1>
+          </p>
           <p className="font-medium text-sm md:text-xl font-playfair mb-2">
             Kamis, 18 April 2024
           </p>
@@ -24,13 +24,7 @@ const Content = () => {
           </p>
         </div>
       </div>
-      <div className="w-[275px] md:w-[575px] text-center ml-16 md:ml-36 mt-2">
-        <p className="font-raleway">
-          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-          Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada
-          putra-putri kami.
-        </p>
-      </div>
+      <p className="text-center text-sm sm:text-xl sm:font-bold font-semibold mt-5" >Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada putra-putri kami.</p>
     </div>
   );
 };
