@@ -7,10 +7,9 @@ const Home = () => {
     const name = urlSearch.get('name')
 
     if (!name) return <NotFound />
+
+    if (!invitations.some(people => people.name === name)) return <NotFound />
     
-    if (!invitations.some(people => people.name === name)) return (
-        <div className="">You has not invited!</div>
-    )
     return (
         <div className='w-full flex flex-col bg-slate-100'>
             <Header />
