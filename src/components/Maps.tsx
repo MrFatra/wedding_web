@@ -1,12 +1,12 @@
 const Maps = () => {
   return (
     <div className="relative w-full px-4 md:px-8 pb-8 bg-orange-50 py-3 md:pt-1 lg:pt-1">
-      <div className="text-header font-bold mb-0">Lokasi</div>
+      <div className="text-header font-bold mb-0 text-gray-500">Lokasi</div>
       <div className=" h-[1.5px] bg-slate-500 rounded-full mb-5" />
       <div className=" h-[1.5px] rounded-full mb-5" />
       <div className="block sm:grid md:grid grid-cols-2 gap-5 items-center">
         <div className="flex items-center flex-col">
-          <p className="text-2xl font-bold mb-5">Alamat Lengkap: </p>
+          <p className="text-2xl font-bold mb-5 text-gray-500">Alamat Lengkap: </p>
           <p className="font-coustard font-thin text-lg mb-7 text-center border-[3px] border-grack py-2 px-4 border-dashed ">Dusun Kliwon, RT/RW 04/02, Desa Cigarukgak, Kecamatan Ciawigebang, Kabupaten Kuningan</p>
           <img src="/images/maps/arrow.svg" alt="" className="hidden md:block md:w-96 md:h-80" />
         </div>

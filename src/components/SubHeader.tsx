@@ -1,6 +1,6 @@
 const SubHeader = () => {
   return (
-    <div className="bg-orange-100 rounded-lg mt-3 shadow-2xl md:m-6 p-4 md:p-8">
+    <div className="bg-orange-100 rounded-lg mt-3 shadow-2xl md:m-6 p-4 md:p-8 text-gray-500">
       <div className="text-center m-5">
         <h1 className="text-2xl md:text-3xl font-medium font-playfair">
           Mempelai Pria{" "}

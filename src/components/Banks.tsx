@@ -25,10 +25,10 @@ const Banks = () => {
     return (
         <div className="w-full bg-orange-100 pb-20 px-4 md:px-8 bg-no-repeat bg-bottom bg-contain" style={{ backgroundImage: "url('/images/banks/wave-bank.svg')" }}>
             <div className="flex flex-col">
-                <p className="text-header font-bold">Gifts</p>
+                <p className="text-header font-bold text-gray-500">Gifts</p>
                 <div className="h-[1.5px] bg-slate-500 rounded-full mb-5" />
             </div>
-            <p className="text-center font-coustard mb-10 mt-5 text-lg md:text-xl lg:text-2xl">
+            <p className="text-center font-coustard mb-10 mt-5 text-lg md:text-xl lg:text-2xl text-gray-500">
                 Gabunglah dalam kebahagiaan kami! Untuk hadiah, kami menerima transfer uang digital di bawah ini dengan senang hati.🥰
             </p>
             {/* <div className="block sm:flex md:flex gap-10 lg:gap-28 sm:gap-10 px-10 lg:px-12 justify-center"> */}
