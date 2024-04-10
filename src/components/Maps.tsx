@@ -1,6 +1,6 @@
 const Maps = () => {
   return (
-    <div className="relative w-full px-4 md:px-8 pb-8 bg-slate-200 py-3 md:pt-1 lg:pt-1">
+    <div className="relative w-full px-4 md:px-8 pb-8 bg-orange-50 py-3 md:pt-1 lg:pt-1">
       <div className="text-header font-bold mb-0">Lokasi</div>
       <div className=" h-[1.5px] bg-slate-500 rounded-full mb-5" />
       <div className=" h-[1.5px] rounded-full mb-5" />

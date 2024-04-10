@@ -1,12 +1,12 @@
 const Content = () => {
   return (
-    <div className="bg-slate-300 rounded-md m-4 md:m-8 md:w-[875px] md:mx-auto">
+    <div className="bg-orange-100 rounded-md m-4 md:m-8 md:w-[875px] md:mx-auto shadow-2xl">
       <div className="grid md:grid-cols-2">
-        <div className="ml-[120px] mt-5 mb-5 md:ml-24 md:mt-4 md:mb-4 bg-white h-[200px] w-[155px] md:h-[335px] md:w-[275px] lg:h-[385px] lg:w-[300px] rounded-xl shadow-2xl">
+        <div className="ml-[120px] mt-5 mb-5 md:ml-24 md:mt-4 md:mb-4 bg-orange-50 h-[200px] w-[155px] md:h-[335px] md:w-[275px] lg:h-[385px] lg:w-[300px] rounded-xl shadow-2xl">
           <img
             src="/images/wedding/wed-5.jpg"
             alt=""
-            className="h-[175px] md:h-[315px] lg:h-[350px] ml-3 md:ml-5 mt-3 sm:mt-3 md:mt-4 object-cover rounded-lg shadow-inner"
+            className="h-[175px] md:h-[315px] lg:h-[350px] ml-3 md:ml-5 mt-3 sm:mt-3 md:mt-4 object-cover rounded-lg shadow-xl"
           />
         </div>
         <div className="md:mt-32  text-center">

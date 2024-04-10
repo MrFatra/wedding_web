@@ -11,7 +11,7 @@ const Home = () => {
     if (!invitations.some(people => people.name === name)) return <NotFound />
     
     return (
-        <div className='w-full flex flex-col bg-slate-100'>
+        <div className='w-full flex flex-col bg-orange-50'>
             <Header />
             <SubHeader />
             <Content />

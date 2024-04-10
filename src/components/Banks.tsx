@@ -23,7 +23,7 @@ const Banks = () => {
 
 
     return (
-        <div className="w-full bg-slate-200 pb-20 px-4 md:px-8 bg-no-repeat bg-bottom bg-contain" style={{ backgroundImage: "url('/images/banks/wave-bank.svg')" }}>
+        <div className="w-full bg-orange-100 pb-20 px-4 md:px-8 bg-no-repeat bg-bottom bg-contain" style={{ backgroundImage: "url('/images/banks/wave-bank.svg')" }}>
             <div className="flex flex-col">
                 <p className="text-header font-bold">Gifts</p>
                 <div className="h-[1.5px] bg-slate-500 rounded-full mb-5" />
