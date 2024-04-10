@@ -28,14 +28,14 @@ const Inputs = ({ name }: { name: string }) => {
 
     return (
         <form onSubmit={handleSubmit} className="px-8 mb-10 mt-5">
-            <p className="text-4xl lg:text-header md:text-header font-bold">Konfirmasi Kehadiran</p>
+            <p className="text-4xl lg:text-header md:text-header font-bold text-gray-500">Konfirmasi Kehadiran</p>
             <div className=" h-[1.5px] bg-s late-500 rounded-full mb-5" />
             <div className="flex flex-col gap-2">
                 <div className="flex gap-2 items-center text-xl">
-                    <p className="text-lg">Nama: {name}</p>
+                    <p className="text-lg text-gray-500">Nama: {name}</p>
                 </div>
                 <div className="flex flex-col gap-2 mt-2">
-                    <p className="text-lg">Pesan Ucapan:</p>
+                    <p className="text-lg text-gray-500">Pesan Ucapan:</p>
                     <TextareaAutosize onChange={(event) => setMessage(event.target.value)} minRows={3} className="resize-none border-2 rounded-lg p-2 border-grack" required />
                 </div>
                 <div className="flex flex-col gap-3 my-4" >

@@ -1,6 +1,6 @@
 const SubHeader = () => {
   return (
-    <div className="bg-slate-300 rounded-lg mt-3 shadow-2xl md:m-6 p-4 md:p-8">
+    <div className="bg-orange-100 rounded-lg mt-3 shadow-2xl md:m-6 p-4 md:p-8 text-gray-500">
       <div className="text-center m-5">
         <h1 className="text-2xl md:text-3xl font-medium font-playfair">
           Mempelai Pria{" "}
@@ -15,21 +15,21 @@ const SubHeader = () => {
           <img
             src="/images/gallery/image2.jpg"
             alt="wedding1"
-            className="h-[435px] md:h-[200px] lg:h-[485px] object-cover w-full rounded shadow-xl"
+            className="h-[435px] md:h-[200px] lg:h-[485px] object-cover w-full rounded shadow-2xl"
           />
         </div>
         <div className="cursor-pointer">
           <img
             src="/images/gallery/image1.jpg"
             alt="wedding2"
-            className="h-[175px] md:h-[200px] lg:h-[485px]  object-cover w-full rounded shadow-xl"
+            className="h-[175px] md:h-[200px] lg:h-[485px]  object-cover w-full rounded shadow-2xl"
           />
         </div>
         <div className="cursor-pointer">
           <img
             src="/images/gallery/image3.jpg"
             alt="wedding3"
-            className="h-[435px] md:h-[200px] lg:h-[485px] object-cover w-full rounded shadow-xl"
+            className="h-[435px] md:h-[200px] lg:h-[485px] object-cover w-full rounded shadow-2xl"
           />
         </div>
       </div>
