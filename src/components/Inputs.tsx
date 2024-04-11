@@ -36,7 +36,7 @@ const Inputs = ({ name }: { name: string }) => {
                 </div>
                 <div className="flex flex-col gap-2 mt-2">
                     <p className="text-lg text-gray-500">Pesan Ucapan:</p>
-                    <TextareaAutosize onChange={(event) => setMessage(event.target.value)} minRows={3} className="resize-none border-2 rounded-lg p-2 border-grack" required />
+                    <TextareaAutosize onChange={(event) => setMessage(event.target.value)} minRows={3} className="resize-none border-2 rounded-lg p-2 border-grack bg-gray-50" required />
                 </div>
                 <div className="flex flex-col gap-3 my-4" >
                     {
