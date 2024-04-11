@@ -34,7 +34,7 @@ const Banks = () => {
             {/* <div className="block sm:flex md:flex gap-10 lg:gap-28 sm:gap-10 px-10 lg:px-12 justify-center"> */}
             <div className="flex justify-center">
                 <div className="font-raleway w-full md:w-1/2 mb-10 sm:mb-0 md:mb-0">
-                    <div className="rounded-2xl bg-white p-4 md:p-8 shadow-2xl">
+                    <div className="rounded-2xl bg-white p-4 md:p-8 shadow-2xl" data-aos="fade-up" data-aos-offset="500" data-aos-duration="500">
                         <img src="/images/banks/bri.svg" alt="BNI" className="my-5 md:my-10 h-52 object-contain" />
                         <div className="w-full h-1 bg-slate-500 rounded-full mb-5" />
                         <div className="pb-4">
