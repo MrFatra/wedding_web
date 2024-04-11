@@ -7,7 +7,7 @@ import { FaPause, FaPlay } from 'react-icons/fa6'
 const Home = () => {
     const urlSearch = new URLSearchParams(window.location.search)
     const name = urlSearch.get('name')
-    const [audio] = useState(new Audio('audio/intro.mp3')) // Menggunakan useState untuk menginisialisasi audio
+    const [audio] = useState(new Audio('audio/intro.mp3'))
     const [toogle, setToogle] = useState(true)
 
     const handleToogle = () => {
@@ -20,6 +20,7 @@ const Home = () => {
     }
 
     useEffect(() => {
+        audio.loop = true
         if (!toogle) {
             audio.pause()
         } else {
