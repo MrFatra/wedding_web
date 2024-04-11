@@ -5,10 +5,6 @@ export default function Modal() {
     const [open, setOpen] = useState(true)
 
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-
-    useEffect(() => {
         if (open) document.documentElement.classList.add('overflow-hidden');
         else document.documentElement.classList.remove('overflow-hidden');
         return () => {
