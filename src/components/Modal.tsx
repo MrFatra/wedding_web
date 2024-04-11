@@ -5,9 +5,11 @@ export default function Modal() {
     const [open, setOpen] = useState(true)
 
     useEffect(() => {
+        document.body.style.zoom = "100%";
         if (open) document.documentElement.classList.add('overflow-hidden');
         else document.documentElement.classList.remove('overflow-hidden');
         return () => {
+            document.body.style.zoom = "100%";
             document.documentElement.classList.remove('overflow-hidden');
         };
     }, [open, setOpen])
