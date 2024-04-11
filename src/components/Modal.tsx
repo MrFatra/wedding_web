@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { FaArrowRight } from "react-icons/fa6"
 
-export default function Modal() {
+export default function Modal({ audio }: { audio: HTMLAudioElement }) {
     const [open, setOpen] = useState(true)
 
     useEffect(() => {
@@ -9,10 +9,14 @@ export default function Modal() {
     }, [])
 
     useEffect(() => {
-        if (open) document.documentElement.classList.add('overflow-hidden');
-        else document.documentElement.classList.remove('overflow-hidden');
+        if (open) {
+            document.documentElement.classList.add('overflow-hidden')
+        } else {
+            document.documentElement.classList.remove('overflow-hidden')
+            audio && audio.play()
+        }
         return () => {
-            document.documentElement.classList.remove('overflow-hidden');
+            document.documentElement.classList.remove('overflow-hidden')
         };
     }, [open, setOpen])
 
@@ -30,7 +34,7 @@ export default function Modal() {
                     <p className="text-[1.5rem] mt-5 font-semibold sm:text-4xl md:text-4xl" data-aos="fade" data-aos-delay="500">The Wedding Of</p>
                     <div className="flex items-center flex-col mt-4 mb-5 font-bold">
                         <div className="font-satisfy text-3xl md:text-5xl lg:text-5xl mt-10 mb-1 flex flex-col gap-5">
-                            <p data-aos="fade" data-aos-delay="700">Ade Irna Rohmatillah</p>
+                            <p data-aos="fade" data-aos-delay="700">Ade Irma Rohmatillah</p>
                             <p data-aos="fade" data-aos-delay="950">&</p>
                             <p data-aos="fade" data-aos-delay="1200">Muhammad Ilyas Robiansyah</p>
                         </div>

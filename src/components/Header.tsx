@@ -10,7 +10,7 @@ const Header = () => {
           We Are Getting Married
         </p>
         <div className="font-satisfy text-5xl mt-10 mb-1 flex flex-col gap-5">
-          <p>Ade Irna Rohmatillah</p>
+          <p>Ade Irma Rohmatillah</p>
           <p>&</p>
           <p>Muhammad Ilyas Robiansyah</p>
         </div>
