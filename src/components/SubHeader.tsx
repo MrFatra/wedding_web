@@ -13,21 +13,21 @@ const SubHeader = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-4 md:px-20">
         <div className="cursor-pointer">
           <img
-            src="/images/gallery/image2.jpg"
+            src="/images/wedding/wed-1.jpg"
             alt="wedding1"
             className="h-[435px] md:h-[200px] lg:h-[485px] object-cover w-full rounded shadow-2xl"
           />
         </div>
         <div className="cursor-pointer">
           <img
-            src="/images/gallery/image1.jpg"
+            src="/images/wedding/wed-3.jpg"
             alt="wedding2"
             className="h-[175px] md:h-[200px] lg:h-[485px]  object-cover w-full rounded shadow-2xl"
           />
         </div>
         <div className="cursor-pointer">
           <img
-            src="/images/gallery/image3.jpg"
+            src="/images/wedding/wed-8.jpg"
             alt="wedding3"
             className="h-[435px] md:h-[200px] lg:h-[485px] object-cover w-full rounded shadow-2xl"
           />
