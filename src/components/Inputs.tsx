@@ -20,7 +20,7 @@ const Inputs = ({ name }: { name: string }) => {
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
-        const phone = '628886030927'
+        const phone = '085224205022'
         const template = `Hai, saya ${name} ingin konfirmasi pada undangan digital bahwa ${selectedPresence}. Saya ucapkan ${message}`
         const api = 'https://api.whatsapp.com/send?phone=' + phone + '&text=' + template
         window.location.href = api
