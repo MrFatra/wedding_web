@@ -20,6 +20,10 @@ const Home = () => {
     }
 
     useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
+    useEffect(() => {
         audio.loop = true
         if (!toogle) {
             audio.pause()
@@ -43,13 +47,13 @@ const Home = () => {
                 <Inputs name={name} />
                 <Quotes />
                 <Banks />
-                <div className="fixed top-10 right-10" onClick={handleToogle}>
+                <div className="fixed top-10 right-10 bg-[#ffcdab] p-2 cursor-pointer rounded-lg" onClick={handleToogle}>
                     {
                         toogle
                             ?
-                            <FaPause size={30} color='#77B0AA' />
+                            <FaPause size={30} color='#B67352' />
                             :
-                            <FaPlay size={30} color='#77B0AA' />
+                            <FaPlay size={30} color='#B67352' />
                     }
                 </div>
             </div>
