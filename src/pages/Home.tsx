@@ -47,7 +47,7 @@ const Home = () => {
                 <Inputs name={name} />
                 <Quotes />
                 <Banks />
-                <div className="fixed top-10 right-10 bg-[#ffcdab] p-2 cursor-pointer rounded-lg" onClick={handleToogle}>
+                <div className="fixed top-5 right-8 bg-[#ffcdab] p-2 cursor-pointer rounded-lg" onClick={handleToogle}>
                     {
                         toogle
                             ?
